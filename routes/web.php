@@ -14,5 +14,12 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('home');
+    $title = config('teachers.title');
+    // $teachers = [
+    //     'tiziano',
+    //     'luigi',
+    //     'mattia'
+    // ];
+
+    return view('home', compact('title'));
 });

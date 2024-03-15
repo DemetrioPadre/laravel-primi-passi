@@ -8,7 +8,8 @@
 </head>
 
 <body>
-    <h1>LARAVEL E I SUOI PRIMI PASSI</h1>
+    <h1>{{$title}}</h1>
+
 </body>
 
 </html>
